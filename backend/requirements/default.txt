@@ -393,7 +393,7 @@ inflection==0.5.1
     # via
     #   onyx
     #   pyairtable
-iniconfig==2.3.0
+iniconfig==2.3.1
     # via pytest
 isodate==0.7.2
     # via

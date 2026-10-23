@@ -614,7 +614,7 @@ opentelemetry-sdk==1.39.1
     #   langfuse
     #   openinference-instrumentation
     #   opentelemetry-exporter-otlp-proto-http
-opentelemetry-semantic-conventions==0.60b1
+opentelemetry-semantic-conventions==0.66b1
     # via opentelemetry-sdk
 orjson==3.11.6 ; platform_python_implementation != 'PyPy'
     # via langsmith

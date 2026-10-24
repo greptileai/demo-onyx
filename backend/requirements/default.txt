@@ -14,7 +14,7 @@ aiofiles==25.1.0
     #   unstructured-client
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.4
+aiohttp==3.14.4
     # via
     #   aiobotocore
     #   discord-py
@@ -106,7 +106,7 @@ botocore-stubs==1.40.74
     # via boto3-stubs
 braintrust==0.3.9
     # via onyx
-brotli==1.2.0
+brotli==1.2.1
     # via onyx
 bytecode==0.17.0
     # via ddtrace
@@ -271,7 +271,7 @@ fastapi-users-db-sqlalchemy==7.0.0
     # via onyx
 fastavro==1.12.1
     # via cohere
-fastmcp==3.2.0
+fastmcp==3.4.10
     # via onyx
 fastuuid==0.14.0
     # via litellm
@@ -293,7 +293,7 @@ fsspec==2025.10.0
     #   huggingface-hub
 gitdb==4.0.12
     # via gitpython
-gitpython==3.1.45
+gitpython==3.2.1
     # via braintrust
 google-api-core==2.28.1
     # via google-api-python-client
@@ -515,7 +515,7 @@ mcp==1.26.0
     #   onyx
 mdurl==0.1.2
     # via markdown-it-py
-mistune==3.2.0
+mistune==3.3.0
     # via onyx
 more-itertools==10.8.0
     # via
@@ -591,7 +591,7 @@ openpyxl==3.0.10
     #   onyx
 opensearch-py==3.0.0
     # via onyx
-opentelemetry-api==1.39.1
+opentelemetry-api==1.45.1
     # via
     #   ddtrace
     #   fastmcp
@@ -645,7 +645,7 @@ pathable==0.4.4
     # via jsonschema-path
 pdfminer-six==20251107
     # via markitdown
-pillow==12.1.1
+pillow==13.0.0
     # via python-pptx
 platformdirs==4.5.0
     # via
@@ -737,7 +737,7 @@ pygithub==2.5.0
     # via onyx
 pygments==2.20.0
     # via rich
-pyjwt==2.12.0
+pyjwt==2.15.0
     # via
     #   fastapi-users
     #   mcp
@@ -752,7 +752,7 @@ pypandoc-binary==1.16.2
     # via onyx
 pyparsing==3.2.5
     # via httplib2
-pypdf==6.9.2
+pypdf==6.21.2
     # via
     #   onyx
     #   unstructured-client

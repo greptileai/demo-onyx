@@ -12,7 +12,7 @@ aiofiles==25.1.0
     # via aioboto3
 aiohappyeyeballs==2.6.1
     # via aiohttp
-aiohttp==3.13.4
+aiohttp==3.14.4
     # via
     #   aiobotocore
     #   discord-py
@@ -55,7 +55,7 @@ botocore==1.39.11
     #   aiobotocore
     #   boto3
     #   s3transfer
-brotli==1.2.0
+brotli==1.2.1
     # via onyx
 celery==5.5.1
     # via sentry-sdk
@@ -267,7 +267,7 @@ packaging==24.2
     #   transformers
 parameterized==0.9.0
     # via cohere
-pillow==12.1.1
+pillow==13.0.0
     # via sentence-transformers
 prometheus-client==0.23.1
     # via
@@ -308,7 +308,7 @@ pydantic-core==2.33.2
     # via pydantic
 pydantic-settings==2.12.0
     # via mcp
-pyjwt==2.12.0
+pyjwt==2.15.0
     # via mcp
 python-dateutil==2.8.2
     # via
@@ -375,7 +375,7 @@ sentence-transformers==4.0.2
     # via onyx
 sentry-sdk==2.14.0
     # via onyx
-setuptools==80.9.0 ; python_full_version >= '3.12'
+setuptools==84.1.0 ; python_full_version >= '3.12'
     # via torch
 six==1.17.0
     # via

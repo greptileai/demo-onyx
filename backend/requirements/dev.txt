@@ -61,7 +61,7 @@ brotli==1.2.0
     # via onyx
 celery-types==0.19.0
     # via onyx
-certifi==2025.11.12
+certifi==2026.10.23
     # via
     #   httpcore
     #   httpx
@@ -131,7 +131,7 @@ fastavro==1.12.1
     # via cohere
 fastuuid==0.14.0
     # via litellm
-filelock==3.20.3
+filelock==4.2.1
     # via
     #   huggingface-hub
     #   virtualenv
@@ -219,7 +219,7 @@ kiwisolver==1.4.9
     # via matplotlib
 kubernetes==31.0.0
     # via onyx
-litellm==1.81.6
+litellm==1.109.0.dev1
     # via onyx
 mako==1.2.4
     # via alembic
@@ -235,7 +235,7 @@ matplotlib-inline==0.2.1
     # via
     #   ipykernel
     #   ipython
-mcp==1.26.0
+mcp==1.30.0
     # via claude-agent-sdk
 multidict==6.7.0
     # via
@@ -259,7 +259,7 @@ numpy==2.4.1
     #   matplotlib
     #   pandas-stubs
     #   voyageai
-oauthlib==3.2.2
+oauthlib==4.0.1
     # via
     #   kubernetes
     #   requests-oauthlib
@@ -293,7 +293,7 @@ pathspec==0.12.1
     #   hatchling
 pexpect==4.9.0 ; sys_platform != 'emscripten' and sys_platform != 'win32'
     # via ipython
-pillow==12.1.1
+pillow==13.0.0
     # via matplotlib
 platformdirs==4.5.0
     # via
@@ -326,7 +326,7 @@ pure-eval==0.2.3
     # via stack-data
 py==1.11.0
     # via retry
-pyasn1==0.6.3
+pyasn1==0.6.5
     # via
     #   pyasn1-modules
     #   rsa
@@ -466,7 +466,7 @@ tokenizers==0.21.4
     # via
     #   cohere
     #   litellm
-tornado==6.5.5
+tornado==6.6
     # via
     #   ipykernel
     #   jupyter-client
